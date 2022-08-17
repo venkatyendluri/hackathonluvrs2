@@ -11,10 +11,17 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="141dp"
+        android:layout_width="0dp"
         android:layout_height="103dp"
-        android:layout_marginBottom="119dp"
+        android:layout_marginBottom="4dp"
+        android:background="#9F5F3AB7"
+        android:backgroundTintMode="add"
+        android:paddingBottom="33dp"
+        android:scaleX="3"
+        android:scaleY="3"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_camera"
-        tools:layout_editor_absoluteX="123dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
 </androidx.constraintlayout.widget.ConstraintLayout>
