@@ -10,10 +10,11 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton2"
         android:layout_width="0dp"
         android:layout_height="103dp"
         android:layout_marginBottom="4dp"
+        android:id="@+id/camera_button"
+        android:text="Camera"
         android:background="#9F5F3AB7"
         android:backgroundTintMode="add"
         android:paddingBottom="33dp"
@@ -24,4 +25,11 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/click_image"
+        android:layout_width="410dp"
+        android:layout_height="723dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="4dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
