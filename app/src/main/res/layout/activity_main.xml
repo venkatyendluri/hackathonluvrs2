@@ -4,20 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#171717"
+    android:background="@drawable/backgroundlolmao"
+    android:backgroundTint="@color/black"
+    android:backgroundTintMode="add"
     tools:context=".MainActivity">
 
-    <TextView
-        android
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#673AB7"
-        android:backgroundTint="#673AB7"
-        android:text="NONAME"
-        android:textSize="24sp"
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="141dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="119dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="123dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
